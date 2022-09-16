@@ -1,0 +1,28 @@
+{
+    "name": "dividebuym2/module-retailerconfig",
+    "description": "Dividebuy RetailerConfig",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4.0",
+        "dividebuym2/module-cart": ">=1.0.0",
+        "dividebuym2/module-checkout": ">=1.0.0",
+        "dividebuym2/module-order": ">=1.0.0",
+        "dividebuym2/module-payment": ">=1.0.0",
+        "dividebuym2/module-product": ">=1.0.0",
+        "dividebuym2/module-shipping": ">=1.0.0",
+        "dividebuym2/module-softsearch": ">=1.0.0",
+        "dividebuym2/module-tooltip": ">=1.0.0",
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Dividebuy\\RetailerConfig\\": ""
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
